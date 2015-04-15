@@ -1,0 +1,67 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans);;
+
+$primaryFull: rgba(0,85,150,1.0); 
+$primaryHalf: rgba(0,85,150,0.5);
+$secondaryFull: rgba(103,177, 234,1.0);
+$secondaryHalf: rgba(103,177, 234,0.5);
+$tertiaryFull: rgba(129,172, 85, 1.0);
+$tertiaryHalf: rgba(129,172, 85, 0.5);
+$lightBrown: rgba(118, 76, 38,1.0);
+$darkBrown: rgba(70, 51, 33,1.0);
+
+
+$light-white: rgba(236,240,231,1.0);
+$gray: rgba(74, 74, 74,100);
+$light-gray: rgba(236, 240, 241,1.0);
+$white: #fff;
+
+$font-family-sans-serif: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+$navbar-default-bg: $white;
+$navbar-height: 70px;
+
+$navbar-default-link-color: $gray;
+$navbar-default-link-hover-color: $white;
+$navbar-default-link-hover-bg: $secondaryFull;
+
+
+$body-bg: $light-gray;
+$brand-primary: $primaryFull;
+$jumbotron-bg: $white;
+
+
+#about{
+	background: $white;
+}
+
+#detail{
+	background: $white;
+	padding: 10px;
+}
+
+.center {
+     text-align: center;
+}
+
+a.navbar-brand {
+  padding: 5px 5px;
+}
+
+body { padding-bottom: 25px; }
+
+h2 {
+	font: 'Open Sans Condensed'; 
+}
+
+#footer {
+	background: $white;	
+	line-height: 40px;
+	margin-top: 5px;
+}
+
+#MPLLogo {
+	max-width: 40%;
+}
+
+@import 'bootstrap';
